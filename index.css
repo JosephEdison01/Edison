@@ -1,0 +1,211 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.sidebar {display:inline-block;
+    height: 600px;;
+    width: 200px;;
+    padding: 20px;
+    border:rgb(113, 113, 70);
+    border-width: 10px;
+    border-radius: 7px;
+    border-style: solid;
+    float: left;
+    margin-right:25px;
+    background-color:rgb(218, 213, 193)
+}
+
+.image{
+    float:left;
+}
+.profile{float:inline-start;
+padding:100px;
+font-weight: 700;
+font-style:initial;
+padding-left:10%;
+}
+.one{color:black;
+    float: left;
+    margin:15px;
+    height:300px;
+    padding:5px;
+border:5px;
+border-color: black;
+border-style: solid;
+background-color: rgb(234, 230, 216);
+}
+.Two{color:black;
+    float:inline-start;
+    height:300px;
+    margin:15px;
+    padding: 7px;
+border:5px;
+border-color:black;
+border-style: solid;
+width:300px;
+background-color:rgb(234, 230, 216);}
+.intern{
+    color:black;
+   float: left;
+    height:300px;
+    width:380px;
+    margin:15px;
+    padding:7px;
+border:5px;
+border-color:black;
+border-style: solid;
+background-color: rgb(234, 230, 216);
+}
+
+.Edison{
+   display: -ms-inline-grid;
+   height: 600px;
+   
+
+}
+.Education{
+    background-color: rgb(234, 230, 216);
+    border-radius: 20px;
+    border-color:black;
+    border-style: groove;
+    border-width: 10px;
+    float: left;
+    width:77%
+}
+.edu1,.edu2,.edu3{border-color: black;
+    border-style:double;
+    border-width: 5px;
+   background-color: rgb(234, 230, 216);}
+    
+.box1{
+    color:black;
+    border:black;;
+    border-width: 5px;
+    border-style:solid;
+    float: left;
+    margin:10px;
+    text-align: center;
+    background-color: gainsboro;
+}
+.box2{
+    color:black;
+    border:black;
+    border-width: 5px;
+    border-style:solid;
+    float: left;
+    margin:10px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.box3{
+    color:black;
+    border:black;
+    border-width: 5px;
+    border-style:solid;
+    float: left;
+    margin:10px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.box4{
+    color:black;
+    border:black;
+    border-width: 5px;
+    border-style:solid;
+    float: left;
+    margin:10px;
+    text-align: center;
+    background-color: gainsboro;
+}
+.Technical{
+    display: -ms-inline-grid;
+   height: 250px;
+   
+}
+.box5{
+    color:black;
+    border:black;
+    border-width: 5px;
+    border-style:solid;
+    float: left;
+    margin:10px;
+    text-align: center;
+    background-color: gainsboro;}
+.box6{
+        color:black;
+        border:black;
+        border-width: 5px;
+        border-style:solid;
+        float: left;
+        margin:10px;
+        text-align: center;
+        background-color: gainsboro;}
+ .box7{
+            color:black;
+            border:black;
+            border-width: 5px;
+            border-style:solid;
+            float: left;
+            margin:10px;
+            text-align: center;
+            background-color: gainsboro;}
+.box8{
+                color:black;
+                border:black;
+                border-width: 5px;
+                border-style:solid;
+                float: left;
+                margin:10px;
+                text-align: center;
+                background-color: gainsboro;}
+        
+    
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding:5px;
+    border-top: #fff;
+    border-style: solid;
+}
+.image1{
+    padding-left:5px;
+}
+.image1 a img {
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    padding:5px;
+  }
+  
+  .image1 a img:hover {
+    transform: scale(2,2); 
+  }
+  .box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,.box8:hover{background-color: gray;}
